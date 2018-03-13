@@ -148,8 +148,8 @@ ul {
         text-shadow: -1px 1px 2px #303030;
         border: 1px solid black;
         position: fixed;
-        top: 140px;
-        left: 430px;
+    top: 140px;
+    left: 414px;
         padding: 10px 30px 0px 30px;
         background-image: none;
         background-color: #8a94ad;
@@ -251,9 +251,9 @@ ul {
     #animals:hover {
         text-shadow: -1px 1px 2px #303030;
         border: 1px solid black;
-        position: fixed;
-        top: 495px;
-        left: 430px;
+       position: fixed;
+    top: 495px;
+    left: 414px;
         padding: 80px 30px 0px 30px;
         background-image: none;
         background-color: #8a94ad;
@@ -270,7 +270,7 @@ ul {
     top: 624px;
     right: 820px;
     background-color: #8a94ad;
-    padding: 2px 75px 2px 73px;
+    padding: 8px 34px 8px 114px;
     margin: 280px 0px 0px 0px;
 }
 #last h2 {
