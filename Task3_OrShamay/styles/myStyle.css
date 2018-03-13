@@ -1,0 +1,308 @@
+body {
+    direction: rtl;
+    margin: 0 auto;
+}
+
+#container {
+    font-family: "Calibri";
+    font-size: 18pt;
+    height: 950px;
+    margin: 0px 0px;
+    padding: 21px 0px 3px 0px;
+    text-align: center;
+    /*background: #49536b;*/
+    /*background: #8ca0b9;*/
+    /*background: #dfe0e3;*/
+    background: #5b647a;
+    color: white;
+}
+
+#me {
+    font-family: "Dana Yad AlefAlefAlef";
+    text-shadow: -2px 2px 3px #303030;
+    margin: 0 auto;
+    background-image: url('../images/me2.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 300px;
+    right: 705px;
+  
+}
+
+    /*header*/
+    #name {
+        padding-left: 219px;
+        color: white;
+    font-size: 50pt;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+#about {
+    margin: 5px 0px;
+    padding-left: 219px;
+    color: white;
+    font-size: 26pt;
+    position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+/*student*/
+
+#student {
+    position: fixed;
+    top: 113px;
+    right: 406px;
+    background-image: url('../images/student.jpg');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    -webkit-transition: background 2s ease-out;
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+
+    #student:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 113px;
+        right: 406px;
+        padding: 50px 20px 0px 20px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 200px;
+        width: 210px;
+    }
+
+    /*school*/
+
+#school {
+    position: fixed;
+    top: 0px;
+    right: 820px;
+    
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    background-image: url('../images/beit-yerach.jpg');
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+    #school:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 0px;
+        right: 820px;
+        padding-top: 50px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 200px;
+        width: 250px;
+    }
+       
+    /*music*/
+#music {
+    position: fixed;
+    top: 140px;
+    left: 414px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    background-image: url('../images/piano2.jpg');
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+    #music:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 140px;
+        left: 430px;
+        padding: 10px 30px 0px 30px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 240px;
+        width: 190px;
+    }
+ 
+/*photo*/
+#photo {
+    position: fixed;
+    top: 495px;
+    right: 406px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    background-image: url('../images/photograph.jpg');
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+    #photo:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 495px;
+        right: 406px;
+        padding: 70px 30px 0px 30px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 180px;
+        width: 190px;
+    }
+     /*bono*/
+#bono {
+
+    position: fixed;
+    top: 624px;
+    right: 820px;
+  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    background-image: url('../images/bono.jpeg');
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+    #bono:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 624px;
+        right: 820px;
+        padding: 80px 10px 0px 10px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 170px;
+        width: 230px;
+        background-image: url('../images/heart.png');
+        background-size: 70px;
+        background-position-x: 98px;
+        background-position-y: 140px;
+    }
+
+    /*animals*/
+#animals {
+    position: fixed;
+    top: 495px;
+    left: 414px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    color: transparent;
+    background-image: url('../images/animals2.jpg');
+    -webkit-transition: background 1s ease-in;
+    -moz-transition: background 1s ease-in;
+    -ms-transition: background 1s ease-in;
+    -o-transition: background 1s ease-in;
+    transition: background 1s ease-in;
+}
+
+    #animals:hover {
+        text-shadow: -1px 1px 2px #303030;
+        border: 1px solid black;
+        position: fixed;
+        top: 495px;
+        left: 430px;
+        padding: 80px 30px 0px 30px;
+        background-image: none;
+        background-color: #8a94ad;
+        text-align: center;
+        color: white;
+        height: 170px;
+        width: 190px;
+    }
+
+/*contact*/
+
+#contact {
+    position: fixed;
+    top: 624px;
+    right: 820px;
+    background-color: #8a94ad;
+    padding: 2px 75px 2px 73px;
+    margin: 280px 0px 0px 0px;
+}
+#last h2 {
+    text-align: right;
+    text-shadow: 1px -1px 4px black;
+    font-size: 22pt;
+    padding: 2px 34px 7px 114px;
+    color: white;
+}
+
+
+#facebook {
+    background-image: url(../images/facebook.png);
+    background-size: 34px;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    color: transparent;
+    position: fixed;
+    top: 910px;
+    right: 958px;
+}
+
+#instagram {
+    background-size: 36px;
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    height: 39px;
+    width: 39px;
+    color: transparent;
+    position: fixed;
+    top: 908px;
+    right: 1014px;
+}
+
